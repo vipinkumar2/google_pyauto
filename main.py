@@ -11,12 +11,14 @@ random_sleep()
 
 link="https://accounts.google.com/signin"
 
-# pyautogui.sleep(30)
 
-# pyautogui.press('f6')
+pyautogui.keyDown('shift')
+pyautogui.typewrite('\t\t\n')
+pyautogui.keyUp('shift')
 random_sleep()
 pyautogui.typewrite('https://accounts.google.com/signup')
 random_sleep()
+
 pyautogui.press('enter')
 # pyautogui.typewrite('\t\t\n')
 
@@ -31,14 +33,15 @@ random_sleep()
 new_number = get_number()
 random_sleep()
 
-input('Enter 4')
-pyautogui.typewrite(f'\t\t\t\t\t\t+{new_number}\t\n')
-# pyautogui.press('enter')
-input('EWnter 3')
+for i in range(5):
+    pyautogui.typewrite('\t')
+    pyautogui.sleep(3)
+pyautogui.typewrite(f'+{new_number}\t\n')
+
+# input('EWnter 3')
 random_sleep()
 number_otp = get_sms(new_number)
-pyautogui.typewrite(str(number_otp))
-pyautogui.press('enter')
+pyautogui.typewrite(str(number_otp)+'\t\n')
 
 random_sleep()
 month_first_li =  ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -46,17 +49,26 @@ month_first_li =  ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'
 BIRTHDATE = str(random.randint(2,28))
 BIRTH_MONTH = random.choice(month_first_li)
 BIRTH_YEAR = str(random.randint(1985,2003))
-pyautogui.typewrite('\t\t\t\t\t\t\t\t\t') 
+for _ in range(6):
+    pyautogui.typewrite('\t')
+    pyautogui.sleep(3)
 pyautogui.typewrite(BACKUP_EMAIL+'\t')
 pyautogui.typewrite(BIRTHDATE+'\t')
 pyautogui.typewrite(BIRTH_MONTH+'\t')
 pyautogui.typewrite(BIRTH_YEAR+'\t')
 pyautogui.typewrite('r\t\t\n')
 
-
-pyautogui.typewrite('\t\t\t\t\t\t\t\t\n')
-for _ in range(10):pyautogui.typewrite('\t')
+for _ in range(7):
+    pyautogui.typewrite('\t')
+    pyautogui.sleep(3)
 pyautogui.typewrite('\n')
+
+for _ in range(9):
+    pyautogui.typewrite('\t')
+    pyautogui.sleep(3)
+pyautogui.typewrite('\n')
+
+
 random_sleep(10,15)
 pyautogui.press('f6')
 pyautogui.typewrite('https://www.youtube.com/')
