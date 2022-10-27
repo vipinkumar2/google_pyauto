@@ -71,7 +71,7 @@ pyautogui.typewrite('\n')
 
 random_sleep(10,15)
 pyautogui.press('f6')
-pyautogui.typewrite('https://www.youtube.com/')
+pyautogui.typewrite('https://www.youtube.com/\n')
 random_sleep()
 pyautogui.press('f5')
 
