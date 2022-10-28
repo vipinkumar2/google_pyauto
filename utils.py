@@ -31,12 +31,12 @@ def run_cmd(cmd, verbose=True):
 
 
 import time, random
-def random_sleep(a=3,b=6):
+def random_sleep(a=5,b=7):
     random_time = random.randint(a,b)
     LOGGER.info(f'Time sleep for : {random_time}')
     time.sleep(random_time)
 
-def open_fireforx():
+def open_chrome():
     run_cmd('google-chrome')
     
 def fake_name():
