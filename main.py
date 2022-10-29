@@ -184,5 +184,6 @@ for i in range(3):
     
     df = pd.DataFrame([[fname,lname,new_number,str(username)+'@gmail.com',EMAIL_PASSWORD,datetime.datetime.now()]])
     df.to_csv('accounts.csv',mode='a',header=False,index=False)
+    run_cmd('sh gitpush.sh')
 # input('Enter :')
 

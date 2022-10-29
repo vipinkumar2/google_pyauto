@@ -1,3 +1,3 @@
 git add .
-git commit -m "add functionality to store all email name"
+git commit -m "added new email at csv"
 git push -u origin main
