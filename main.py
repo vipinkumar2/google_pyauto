@@ -4,6 +4,9 @@ import random
 import subprocess, threading
 from utils import BACKUP_EMAIL, EMAIL_PASSWORD, fake_name, get_number, get_sms, random_sleep, open_chrome, run_cmd
 import pyautogui
+import pandas as pd
+import datetime
+csv = pd.read_csv('accounts.csv')
 
 
 for i in range(3):
@@ -126,6 +129,7 @@ for i in range(3):
     pyautogui.typewrite('\n')
     random_sleep()
 
+    input('Enter 233232')
     for _ in range(7):
         pyautogui.typewrite('\t')
         pyautogui.sleep(3)
@@ -176,5 +180,9 @@ for i in range(3):
     random_sleep()
 
     run_cmd('pkill --oldest chrome')
+    
+    
+    df = pd.DataFrame([[fname,lname,new_number,str(username)+'@gmail.com',EMAIL_PASSWORD,datetime.datetime.now()]])
+    df.to_csv('accounts.csv',mode='a',header=False,index=False)
 # input('Enter :')
 
