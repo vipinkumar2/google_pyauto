@@ -9,7 +9,7 @@ import datetime
 csv = pd.read_csv('accounts.csv')
 
 
-for i in range(3):
+for i in range(3000):
 
     threadd = threading.Thread(target=open_chrome)
     threadd.start()
