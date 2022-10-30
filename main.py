@@ -45,7 +45,7 @@ for i in range(3000):
 
     for i in range(5):
         pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
+        pyautogui.sleep(1)
     pyautogui.typewrite(f'+{new_number}\t\n')
 
     # input('EWnter 3')
@@ -61,7 +61,7 @@ for i in range(3000):
     BIRTH_YEAR = str(random.randint(1985,2003))
     for _ in range(6):
         pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
+        pyautogui.sleep(1)
     pyautogui.typewrite(BACKUP_EMAIL+'\t')
     pyautogui.typewrite(BIRTHDATE+'\t')
     pyautogui.typewrite(BIRTH_MONTH+'\t')
@@ -70,12 +70,12 @@ for i in range(3000):
 
     for _ in range(7):
         pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
+        pyautogui.sleep(1)
     pyautogui.typewrite('\n')
 
     for _ in range(9):
         pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
+        pyautogui.sleep(1)
     pyautogui.typewrite('\n')
 
 
@@ -85,94 +85,94 @@ for i in range(3000):
         pyautogui.typewrite('https://www.youtube.com/\n')
         random_sleep()
         pyautogui.press('f5')
-    pyautogui.press('f6')
-    pyautogui.typewrite('http://localhost:8000/en/advance/\n')
+    # pyautogui.press('f6')
+    # pyautogui.typewrite('http://localhost:8000/en/advance/\n')
 
-    random_sleep()
-    for _ in range(3):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('admin@gmail.com')
-    pyautogui.typewrite('\t')
-    pyautogui.typewrite('0000')
-    pyautogui.press('enter')
+    # random_sleep()
+    # for _ in range(3):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('admin@gmail.com')
+    # pyautogui.typewrite('\t')
+    # pyautogui.typewrite('0000')
+    # pyautogui.press('enter')
 
-    random_sleep()
-    pyautogui.press('f6')
-    pyautogui.typewrite('http://localhost:8000/en/advance/dashboard/youtube_manager/\n')
-    random_sleep()
+    # random_sleep()
+    # pyautogui.press('f6')
+    # pyautogui.typewrite('http://localhost:8000/en/advance/dashboard/youtube_manager/\n')
+    # random_sleep()
 
-    # select add account btn
-    for _ in range(16):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # # select add account btn
+    # for _ in range(16):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
-    # select google account
-    for _ in range(2):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # # select google account
+    # for _ in range(2):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
-    # select advance option
-    for _ in range(2):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # # select advance option
+    # for _ in range(2):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
-    for _ in range(3):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # for _ in range(3):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
-    for _ in range(7):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
-
-
-
-    pyautogui.press('f6')
-    pyautogui.typewrite('http://localhost:8000/en/advance/dashboard/youtube_manager/\n')
-    random_sleep()
+    # for _ in range(7):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
 
-    # select add account btn
-    for _ in range(16):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(1)
-    pyautogui.typewrite('\n')
-    random_sleep()
 
-    # select google account
-    for _ in range(2):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # pyautogui.press('f6')
+    # pyautogui.typewrite('http://localhost:8000/en/advance/dashboard/youtube_manager/\n')
+    # random_sleep()
 
-    # select advance option
-    for _ in range(2):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
 
-    for _ in range(3):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
-    random_sleep()
+    # # select add account btn
+    # for _ in range(16):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(1)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
 
-    for _ in range(6):
-        pyautogui.typewrite('\t')
-        pyautogui.sleep(3)
-    pyautogui.typewrite('\n')
+    # # select google account
+    # for _ in range(2):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
+
+    # # select advance option
+    # for _ in range(2):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
+
+    # for _ in range(3):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
+    # random_sleep()
+
+    # for _ in range(6):
+    #     pyautogui.typewrite('\t')
+    #     pyautogui.sleep(3)
+    # pyautogui.typewrite('\n')
     random_sleep()
 
 
