@@ -129,7 +129,6 @@ for i in range(3000):
     pyautogui.typewrite('\n')
     random_sleep()
 
-    input('Enter 233232')
     for _ in range(7):
         pyautogui.typewrite('\t')
         pyautogui.sleep(3)
